@@ -6,9 +6,10 @@ import org.junit.Test;
 
 public class Board {
 
-	@Test
-	public void test() {
+	@Test (expected=NoPieceInCellException.class)
+	public void remove_() {
 		//fail("Not yet implemented");
+		
 	}
 
 }
